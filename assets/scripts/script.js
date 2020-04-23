@@ -6,7 +6,7 @@ gtag("js", new Date());
 gtag("config", "UA-207343-12");
 
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./../sw/sw.js").then(() => {
+  navigator.serviceWorker.register("/assets/scripts/sw/sw.js").then(() => {
     console.log("Service Worker Registered");
   });
 }
