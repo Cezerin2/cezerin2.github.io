@@ -2,7 +2,7 @@
   "name": "cezerin2-site",
   "version": "1.0.0",
   "description": "Cezerin Community Site Project.",
-  "main": "sw-toolbox.js",
+  "main": "./assets/sw/sw.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
