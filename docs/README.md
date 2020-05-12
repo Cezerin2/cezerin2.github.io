@@ -37,4 +37,4 @@ Open Source React and Node.js based eCommerce platform
 
 ### License
 
-MIT
+Unlicense

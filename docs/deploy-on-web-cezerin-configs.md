@@ -2,7 +2,7 @@
 
 You must edit cezerin configs and setup new domain name at configs.
 
-/cezerin2/config/server.js
+/cezerin2/src/config.ts
 
 Change:
 

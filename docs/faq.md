@@ -9,7 +9,7 @@ You need to change all configs and replace all localhost with your ip number or 
 
 How it's work.
 
-Check file: /cezerin2/src/index.js
+Check file: /cezerin2/src/index.ts
 This code:
 
 ```javascript
@@ -25,7 +25,7 @@ if (allowedOrigins === "*") {
 }
 ```
 
-And this file: /cezerin2/src/lib/security.js
+And this file: /cezerin2/src/lib/security.ts
 
 ```javascript
 const getAccessControlAllowOrigin = () => {
@@ -33,19 +33,19 @@ const getAccessControlAllowOrigin = () => {
 };
 ```
 
-storeBaseUrl and adminBaseURL settings located in your config /cezerin2/config/server.js
+storeBaseUrl and adminBaseURL settings located in your config /cezerin2/config/server.ts
 
 ### Can't build cezerin2-store app, how to fix?
 
 Try to install node-sass before cezerin2-store dependencies.
 
-```javascript
+```
 sudo npm i --unsafe-perm node-sass
 ```
 
 Then download cezerin2-store and try to install:
 
-```javascript
+```
 npm i && npm run build
 ```
 

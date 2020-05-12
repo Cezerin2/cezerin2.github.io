@@ -38,5 +38,5 @@ npm i -g npm
 PM2 Installation:
 
 ```
-sudo npm install -g pm2
+sudo npm i -g pm2
 ```

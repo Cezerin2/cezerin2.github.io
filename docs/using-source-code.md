@@ -5,17 +5,17 @@
 - **Clone Git repository**
 
 ```shell
-git clone https://github.com/cezerin2/cezerin2
+git clone https://github.com/Cezerin2/cezerin2
 cd cezerin2
 ```
 
 - **Change settings**
 
 ```shell
-cd config
+cd src
 ```
 
-- **Open `server.js` and change**
+- **Open `config.ts` and change**
 
   - MongoDB Creditionals
   - SMTP Settings
