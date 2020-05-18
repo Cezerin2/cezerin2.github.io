@@ -1,14 +1,13 @@
 {
   "name": "cezerin2-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "sw-toolbox.js",
+  "description": "Cezerin Community Site Project.",
+  "main": "./assets/sw/sw.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT",
+  "license": "Unlicense",
   "devDependencies": {
-    "docsify-cli": "^4.3.0"
+    "docsify-cli": "^4.4.0"
   }
 }

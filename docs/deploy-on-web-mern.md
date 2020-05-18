@@ -1,12 +1,10 @@
-### Prerequisites
+## 3. Install NGinx Web Server + MERN Stack
 
-- **Nginx `>= 1.14.0`**
+NGinx Web Server Installation
 
-```shell
+```
 apt update && apt install nginx-full
 ```
-
-- **Mongodb `>= 3.2`**
 
 [MongoDB 4.x Installation Guide.](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
 
@@ -21,27 +19,24 @@ systemctl start mongod
 systemctl enable mongod
 ```
 
-- **Node.js `v11.x`**
+[NodeJS 11.x Installation Guide.](https://github.com/nodesource/distributions/blob/master/README.md)
 
-NodeJS 11.x installation:
+Console command:
 
-```shell
+```
 # Using Ubuntu
 curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 sudo apt-get install -y nodejs
-# Using Debian, as root
-curl -sL https://deb.nodesource.com/setup_11.x | bash -
-apt-get install -y nodejs (edited)
 ```
 
-- **NPM `>= 6.3.0`**
+Update NPM:
 
-```shell
+```
 npm i -g npm
 ```
 
-- **PM2 `>= 3.0.3`**
+PM2 Installation:
 
-```shell
-npm i -g pm2
+```
+sudo npm i -g pm2
 ```
