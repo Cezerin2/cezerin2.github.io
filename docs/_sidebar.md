@@ -21,6 +21,7 @@
   - [Cezerin configs changes](deploy-on-web-cezerin-configs.md)
   - [Final checks](deploy-on-web-final-checks.md)
   - [Turn off Developer Mode](deploy-on-web-production-mode.md)
+  - [Deploy Multi Instance To AWS](deploy-multi-instance-to-aws.md)
 
 - Help
   - [FAQ](faq.md)
