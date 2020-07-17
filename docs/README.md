@@ -5,7 +5,7 @@
 Open Source React and Node.js based eCommerce platform
 </h5>
 
-[Demo Store](https://demo.cezerin.net)
+[Demo Store](https://cezerin.net)
 
 [Demo Store Dashboard](https://admin.cezerin.net)
 
