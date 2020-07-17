@@ -1,177 +1,98 @@
 ### Using Source code
 
-### A) Cezerin Backend (API) Installation
-  
-  - **Clone Git repository**
-  ```shell
-  git clone https://github.com/cezerin2/cezerin2
-  cd cezerin2
-  ```
-  
-  - **Change settings**
-  ```shell
-  cd config
-  ```
+- **Clone Git repository**
 
-  - **Open `server.js` and change**
-  
-      - MongoDB Creditionals
-      - SMTP Settings
-      - JWT and Cookie Secret Key
-    
-    Save file and go back to root app direcotry
-    ```shell
-    cd ../
-    ```
-  
-  - **Install dependencies**
-  ```shell
-  npm i
-  ```
-  
-  - **Setup database** 
-  
-  Prepare database at this setup our database is empty. To add default data, indexes and access token we need to run:
+```shell
+git clone https://github.com/cezerin2/cezerin2
+cd cezerin2
+```
+
+- **Change settings**
+
+- This step is optional. You can skip this step, all works fine with default settings.
+
+```shell
+cd config
+```
+
+- **Open `config/server.js` and change**
+
+  - MongoDB Credentials
+  - SMTP Settings
+  - JWT and Cookie Secret Key
+
+  Save file and go back to root app direcotry
 
   ```shell
-  npm run setup <email> <domain>
-  ```
-  
-  - We don't have real domain, so we'll use our local domain:
-    ```shell
-    npm run setup admin@example.com http://localhost:3000
-    ```
-
-  - This script will add token with email admin@example.com and my domain to http://localhost
-    
-  - **Start application in the background**
-  ```shell
-  pm2 start process.json
+  cd ../
   ```
 
-  - or you can start app in your terminal (you will see debug information, that is useful for debug):  
-  
-  ```shell
-  npm start
-  ```
-  
-  - At this setup, we have api running on port 3001 and available at **http://localhost:3001**
-  
-  - For example, here is the default store settings: **http://localhost:3001/api/v1/settings**  
-  
-  ```shell
-info: API running at http://localhost:3001
-info: MongoDB connected successfully
-  ```
+- **Install dependencies**
 
-Youtube video: **Cezerin Installation Manual. Part 1 - Backend (API) Installation.**
+```shell
+npm i
+```
 
-[![Cezerin Installation Manual. Part 1 - Backend (API) Installation.
-](https://img.youtube.com/vi/8qqpudkKIdo/0.jpg)](https://www.youtube.com/watch?v=8qqpudkKIdo)
+- **Setup database**
 
-### B) Cezerin Frontend (Store) Installation
+Prepare database. At this step our database is empty. To add default data (categories, products, pages), indexes and access token we need to run:
 
-  - **Clone Git repository**
-  ```shell
-  git clone https://github.com/cezerin2/cezerin2-store
-  ```
-  
-  - **Change settings**
-  ```shell
-  cd cezerin2-store/config
-  ```
-  
-  - **Open `store.js` and change**
-  
-      - JWT and Cookie Secret Key
-      
-    Save file and go back to root app direcotry
-    ```shell
-    cd ../
-    ```
-    
-  - **Install dependencies**
-  ```shell
-  npm i
-  ```
-  
-  - **Build project**
-  ```shell
-  npm run build
-  ```
-  
-  - **Start cezerin store frontend application in the background**
-  ```shell
-  pm2 start process.json
-  ```
+```shell
+npm run setup <email> <domain>
+```
 
-  - or you can start app in your terminal (you will see debug information, that is useful for debug):  
-  
-  ```shell
-  npm start
-  ```
-  
-  - At this setup your cezerin store is now connected to api and available in browser at **http://localhost:3000** 
-  - **P.S. Your backend (api) must be online. Don't forget to start backend before you starting storefront app.** 
-  
-  ```shell
-info: Store running at http://localhost:3000
-  ```
-    
-Youtube video: **Cezerin Installation Manual. Part 2 - Frontend (Store) Installation.**
+We don't have real domain, so we'll use our local domain:
 
-[![Cezerin Installation Manual. Part 2 - Frontend (Store) Installation.
-](https://img.youtube.com/vi/ldtyjIpiBrM/0.jpg)](https://www.youtube.com/watch?v=ldtyjIpiBrM)
-    
-### C) Cezerin Admin Dashboard Installation
+```shell
+npm run setup admin@example.com http://localhost:3000
+```
 
-  - **Clone Git repository**
-  ```shell
-  git clone https://github.com/cezerin2/cezerin2-admin
-  ```
+You can change this email and domain anytime at Dashboard - Settings - General - Domain and Settings - Personal Access Tokens.
 
-  - **Go to cezerin2-admin app folder**
-  ```shell
-  cd cezerin2-admin
-  ```
-  
-  - **Install dependencies**
-  ```shell
-  npm i
-  ```
-  
-  - **Build project**
-  ```shell
-  npm run build
-  ```
-  
-  - **Start cezerin store frontend application in the background**
-  ```shell
-  pm2 start process.json
-  ```
-  - or:  
-  
-  ```shell
-  pm2 serve ./dist 3002
-  ```
-  
-  - At this setup your cezerin admin dashboard app is now connected to api and available in browser at **http://localhost:3002** 
-  - **P.S. Your backend (api) must be online. Don't forget to start backend before you starting admin dashboard app.** 
-  
-  ```shell
-[PM2] Starting /usr/local/lib/node_modules/pm2/lib/API/Serve.js in fork_mode (1 instance)
-[PM2] Done.
-[PM2] Serving /home/work/cezerin/cezerin2-admin/dist on port 3002
-┌─────────────────────────┬────┬───────┬────────┬────────┬─────┬────────┬───────────┐
-│ Name                    │ id │ mode  │ status │ ↺      │ cpu │ memory │
-├─────────────────────────┼────┼───────┼────────┼────────┼─────┼────────┼───────────┤
-│ static-page-server-3002 │ 0  │ 3.2.9 │ fork   │ online │ 0   │ 0%     │ 29.3 MB   │
-└─────────────────────────┴────┴───────┴────────┴────────┴─────┴────────┴───────────┘
- Use `pm2 show <id|name>` to get more details about an app
+- **Build project**
 
-  ```
+```shell
+npm run build
+```
 
-Youtube video: **Cezerin Installation Manual. Part 3 - Admin Dashboard Installation.**
+- **Start application in the background**
 
-[![Cezerin Installation Manual. Part 3 - Admin Dashboard Installation.
-](https://img.youtube.com/vi/dreihHE82Ds/0.jpg)](https://www.youtube.com/watch?v=dreihHE82Ds)
+```shell
+pm2 start process.json
+```
+
+Check that is cezerin apps is started fine and online:
+
+```shell
+pm2 list all
+```
+
+If all is fine, you can see somethng like this, status column must be online. Not "error".
+```shell
+┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐
+│ id │ name               │ mode     │ ↺    │ status    │ cpu      │ memory   │
+├────┼────────────────────┼──────────┼──────┼───────────┼──────────┼──────────┤
+│ 0  │ api                │ fork     │ 2    │ online    │ 5.6%     │ 139.5mb  │
+│ 1  │ store              │ fork     │ 3    │ online    │ 6.8%     │ 134.2mb  │
+└────┴────────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘
+```
+
+If you have error status, you can check the log by this command:
+
+```shell
+pm2 logs
+```
+
+- API running on port 3001 and available at **http://localhost:3001**
+- Storefront running on port 3000 and available at **http://localhost:3000**
+- Dashboard running on port 3000 and available at **http://localhost:3000/admin**
+
+For example, here is the api method for store settings: **http://localhost:3001/api/v1/settings**
+and dashboard settings page: **http://localhost:3000/admin/settings**
+
+
+```shell
+[start-api] info: API running at http://localhost:3001
+[start-api] info: MongoDB connected successfully
+[start-store] info: Store running at http://localhost:3000
+```

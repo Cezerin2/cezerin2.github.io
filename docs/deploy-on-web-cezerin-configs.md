@@ -2,48 +2,39 @@
 
 You must edit cezerin configs and setup new domain name at configs.
 
+/cezerin2/config/admin.js
+
+Change:
+
+```
+http://localhost:3001/api/v1 to https://your-domain-name.com/api/v1
+ws://localhost:3001 to wss://your-domain-name.com
+```
+
 /cezerin2/config/server.js
 
 Change:
+
 ```
+http://localhost:3001/api/v1 to https://your-domain-name.com/api/v1
+http://localhost:3001/ajax to https://your-domain-name.com/ajax
 http://localhost:3000 to https://your-domain-name.com
-http://localhost:3001 to https://your-domain-name.com
-http://localhost:3002 to https://admin.your-domain-name.com
 ```
-/cezerin2-store/config/store.js
+
+/cezerin2/config/store.js
 
 Change:
-```
-http://localhost:3001 to https://your-domain-name.com
-```
 
-/cezerin2-admin/config/admin.js
-
-Change:
 ```
-http://localhost:3001 to https://your-domain-name.com
-```
-
-Change:
-```
-ws://localhost:3001 to wss://your-domain-name.com
+http://localhost:3001/ajax to https://your-domain-name.com/ajax
 ```
 
 Rebuild & restart apps with new configs:
 
-cezerin (backend app does not need to be build, just reload):
-```
-pm2 reload api
-```
-cezerin2-store:
 ```
 npm run build
+pm2 reload api
 pm2 reload store
 ```
-cezerin2-admin:
-```
-npm run build
-pm2 reload admin
-```
 
-P.S. Example of configs for cezerin.org domain you can download here [cezerin2-config-sample.zip](https://github.com/Cezerin2/cezerin2/files/4350955/cezerin2-config-sample.zip)
+P.S. Example of configs for cezerin.net domain you can download here [cezerin2-demo-config-sample.zip](https://github.com/cezerin2/cezerin2/raw/master/docs/config-samples/cezerin2-demo-config-sample.zip)
