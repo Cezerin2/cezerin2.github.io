@@ -17,4 +17,4 @@ If you need some help with deployment and something does not quite work, message
 
 ### Need Private Support?
 
-https://github.com/cezerin2
+https://github.com/vamcart
