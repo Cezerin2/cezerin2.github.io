@@ -4,6 +4,7 @@
   
 - Installation Guides
 
+  - [Applicatoin Structure](application-structure.md)
   - [Prerequisites](prerequisites.md)
   - [Setup Database](setup-database.md)
   - [Using source code](using-source-code.md)
