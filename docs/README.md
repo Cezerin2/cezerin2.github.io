@@ -7,7 +7,7 @@ Open Source React and Node.js based eCommerce platform
 
 [Demo Store](https://cezerin.net)
 
-[Demo Store Dashboard](https://admin.cezerin.net)
+[Demo Store Dashboard](https://cezerin.net/admin)
 
 ---
 
