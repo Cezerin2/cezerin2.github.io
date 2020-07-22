@@ -2,7 +2,7 @@
   <img src="https://cezerin.org/assets/images/shortcut.png" alt="cezerin2" />
 </p>
 <h5 align="center">
-Open Source React and Node.js based eCommerce platform
+Cezerin - Open Source React and Node.js based eCommerce platform
 </h5>
 
 [Demo Store](https://cezerin.net)
