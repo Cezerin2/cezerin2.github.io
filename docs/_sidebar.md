@@ -2,6 +2,8 @@
 
   - [Overview](/)
   - [Applicatoin Structure](application-structure.md)
+  - ![API Client](https://github.com/cezerin2/cezerin2-client)
+  - ![API Reference](https://github.com/Cezerin2/cezerin2/tree/master/docs/api)
  
 - Installation Guides
 
@@ -22,11 +24,6 @@
   - [Cezerin configs changes](deploy-on-web-cezerin-configs.md)
   - [Final checks](deploy-on-web-final-checks.md)
   - [Turn off Developer Mode](deploy-on-web-production-mode.md)
-
-- API
-
-  - ![API Client](https://github.com/cezerin2/cezerin2-client)
-  - ![API Reference](https://github.com/Cezerin2/cezerin2/tree/master/docs/api)
 
 - Help
   - [FAQ](faq.md)
