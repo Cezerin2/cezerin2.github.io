@@ -1,4 +1,4 @@
-## 2. Setup domain
+## Register domain
 
 1. We have hosting (digitalocean droplet) for our cezerin web site.
 
