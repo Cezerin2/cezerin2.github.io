@@ -11,7 +11,7 @@ not by ip address like:
 https://123.456.789.0
 ```
 
-2. You need to register any domain name at any domain regstrator.
+2. You need to register any domain name at any domain registrator.
 
 For example, we have cezerin.net domain and we need to make available cezerin online store on https://cezerin.net
 
@@ -20,4 +20,5 @@ For example, we have cezerin.net domain and we need to make available cezerin on
 4. Let's go to setup domain.
 
   -- [Setup domain with DigitalOcean DNS](deploy-on-web-digitalocean.md)
+  
   -- [Setup domain with Cloudflare](deploy-on-web-cloudflare.md)
