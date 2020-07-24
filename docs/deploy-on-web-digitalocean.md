@@ -31,11 +31,11 @@ P.S. You can change DNS at your domain name control panel.
 *Hostname* - Must be your domain name.
 *Value* - Must be your droplet ip adddess.
 
+`A` dns record points to our droplet IP address.
+
 Example for cezerin.net:
 
   ![DigitalOcean DNS Records](https://github.com/cezerin2/cezerin2/raw/master/docs/images/cezerin-digitalocean-dns-domain.png)
-
-A record points to our droplet IP address.
 
 That's all. 
 
