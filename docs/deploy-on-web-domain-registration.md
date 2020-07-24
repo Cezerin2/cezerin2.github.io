@@ -17,11 +17,4 @@ For example, we have cezerin.net domain and we need to make available cezerin on
 
 3. Ok, we have domain name and we have domain name control panel. 
 
-
-1. Click **Create droplet**
-
-- Choose an image: `Ubuntu 18.04.4 x64`
-- Choose a size: `2 GB (RAM), 1 vCPU, 50 GB (SSD)`
-- Choose a datacenter region: `San Francisco`
-
-2. Then SSH to droplet.
+Let's go to attach domain and hosting. 
