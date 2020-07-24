@@ -16,7 +16,8 @@
 
   - [Hosting](deploy-on-web-hosting.md)
   - [Create droplet](deploy-on-web-droplet.md)
-  - [Setup domain with DigitalOcean DNS](deploy-on-web-domain.md)
+  - [Setup domain](deploy-on-web-domain.md)
+  -- [Register domain](deploy-on-web-domain-registration.md)
   -- [Setup domain with DigitalOcean DNS](deploy-on-web-digitalocean.md)
   -- [Setup domain with Cloudflare](deploy-on-web-cloudflare.md)
   - [Install NGinx Web Server + MERN Stack](deploy-on-web-mern.md)
