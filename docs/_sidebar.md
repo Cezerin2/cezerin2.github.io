@@ -24,9 +24,9 @@
   - [Run MongoDB](deploy-on-web-mongodb.md)
   - [Run Cezerin](deploy-on-web-cezerin.md)
   - [Run NGinx](deploy-on-web-nginx.md)
-  - [Setup Let's Encrypt SSL Certificate](deploy-on-web-lets-encrypt.md)
   - [Cezerin configs changes](deploy-on-web-cezerin-configs.md)
   - [Final checks](deploy-on-web-final-checks.md)
+  - [Setup Let's Encrypt SSL Certificate](deploy-on-web-lets-encrypt.md)
   - [Turn off Developer Mode](deploy-on-web-production-mode.md)
 
 - Help
