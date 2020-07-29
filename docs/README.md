@@ -6,7 +6,9 @@ Cezerin - Open Source React and Node.js based eCommerce platform
 </h5>
 
 [Demo Store - Plusha Theme](https://plusha.cezerin.net)
+
 [Demo Store - Default Theme](https://cezerin.net)
+
 [Demo Store - Dashboard](https://cezerin.net/admin)
 
 [![Cezerin Store Plusha Theme](https://cezerin.org/assets/images/cezerin-plusha-theme.png)](https://plusha.cezerin.net)
