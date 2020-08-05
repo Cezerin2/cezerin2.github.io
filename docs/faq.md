@@ -79,7 +79,7 @@ free - m
 ```
 
 
-### How to significantly speeds up the development process?
+### How to significantly speed up the development process?
 
 1) Do it first
 ```javascript
