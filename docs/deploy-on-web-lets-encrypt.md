@@ -1,6 +1,6 @@
 ## Setup Let's Encrypt SSL Certificate
 
-By default we don't have SSL certifacate for our web site on cezerin.
+By default we don't have SSL certificate for our web site on cezerin.
 
 Let's install free auto-updated Let's Encrypt SSL Certificate.
 

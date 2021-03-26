@@ -13,8 +13,6 @@ SEO Friendly. Google Analytics eCommerce Tracking included.
 
 [Online Demo Store - Plusha Theme](https://plusha.cezerin.net)
 
-[![Cezerin Store Plusha Theme](https://cezerin.org/assets/images/cezerin-plusha-theme.png)](https://plusha.cezerin.net)
-
 Buy Plusha Theme for 19$
 
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
@@ -23,6 +21,8 @@ Buy Plusha Theme for 19$
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+
+[![Cezerin Store Plusha Theme](https://cezerin.org/assets/images/cezerin-plusha-theme.png)](https://plusha.cezerin.net)
 
 [Online Demo Store - Default Theme](https://cezerin.net)
 
